@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "description": "Music bot using Discord.js",
   "main": "./dist/index.js",
-  "scripts": {},
+  "scripts": {
+    "format": "prettier --write .",
+    "check": "prettier --check ."
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/InkoHX/SoundNitro.git"
