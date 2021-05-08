@@ -5,7 +5,8 @@
   "main": "./dist/index.js",
   "scripts": {
     "format": "prettier --write .",
-    "check": "prettier --check ."
+    "check": "prettier --check .",
+    "prepare": "node ./scripts/prepare.js"
   },
   "repository": {
     "type": "git",
