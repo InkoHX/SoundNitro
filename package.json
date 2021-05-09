@@ -6,8 +6,8 @@
   "scripts": {
     "format": "prettier --write .",
     "check": "prettier --check .",
-    "lint": "eslint ./src",
-    "lint:fix": "eslint ./src --fix",
+    "lint": "eslint \"{src,scripts}/**/*.{js,ts}\"",
+    "lint:fix": "eslint \"{src,scripts}/**/*.{js,ts}\" --fix",
     "prepare": "node ./scripts/prepare.js"
   },
   "repository": {
